@@ -1,0 +1,36 @@
+site_name: Mykilio
+site_dir: public
+site_url: https://docs.mykil.io
+repo_url: https://github.com/mykilio/docs
+repo_name: mykilio/docs
+edit_uri: edit/main/docs/
+strict: yes
+use_directory_urls: no
+nav:
+  - Home: index.md
+  - Ecosystem:
+      - Concepts: ecosystem/concepts.md
+theme:
+  favicon: assets/img/mykilio-teal500.png
+  logo: assets/img/mykilio-white.png
+  name: material
+  palette:
+    primary: teal
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+  custom_dir: template
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - mdx_truly_sane_lists
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - toc:
+      permalink: yes
+extra_css:
+  - assets/css/home.css

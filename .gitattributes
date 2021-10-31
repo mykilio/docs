@@ -1,0 +1,7 @@
+# Enforce linux style line endings.
+* text eol=lf
+# Track binary files with Git LFS.
+*.ico -text
+*.png -text
+*.jpg -text
+*.jpeg -text
