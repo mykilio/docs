@@ -63,7 +63,7 @@ jobs:
           path: public
 
       - name: Configure documentation domain
-        run: echo $DOMAIN > public/CNAME
+        run: echo docs.$DOMAIN > public/CNAME
         env:
           DOMAIN: ${{ secrets.DOMAIN }}
 
