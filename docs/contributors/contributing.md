@@ -4,7 +4,7 @@ This section describes how you can contribute to the different projects of the e
 
 ## Documentation
 
-The documentation is located in the [`mykilio/docs`][repo-docs] repository. There we use [MkDocs][website-mkdocs] with the [Material for MkDocs theme][website-mkdocs-material]. The documentation framework requires [Python3][website-python] to be installed, which can be done on [Ubuntu][website-ubuntu] by following steps below.
+The documentation is located in the [`mykilio/docs`][repo-docs] repository. We use [MkDocs][website-mkdocs] with the [Material for MkDocs theme][website-mkdocs-material] to write and publish the documentation, which require [Python3][website-python] to be installed. If you are using [Ubuntu][website-ubuntu] this can be done by following the steps below.
 
 ```bash
 # Install packages for Python3 development.
