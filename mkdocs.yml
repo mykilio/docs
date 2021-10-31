@@ -10,6 +10,9 @@ nav:
   - Home: index.md
   - Ecosystem:
       - Concepts: ecosystem/concepts.md
+  - Contributors:
+      - Contributing: contributors/contributing.md
+      - FAQ: contributors/faq.md
 theme:
   favicon: assets/img/mykilio-teal500.png
   logo: assets/img/mykilio-white.png
