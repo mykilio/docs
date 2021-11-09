@@ -2,6 +2,7 @@
   max-height: calc(100vh - 48px);
   clear: both;
   overflow-y: hidden;
+  z-index: 1;
 }
 
 .home__background {

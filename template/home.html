@@ -1,39 +1,32 @@
 {% extends "main.html" %}
 
 {% block tabs %}
-{{ super() }}
-<section class="home">
-  <img
-    class="home__background"
-    src="assets/img/home-background.svg"
-    draggable="false"
-  />
-  <div class="home__wrapper">
-    <div class="home__main">
-      <div class="home__content">
-        <h1>Event-driven microservices at scale</h1>
-        <p>
-          Mykilio is an ecosystem that enables you to build modern, event-driven
-          microservices while focusing on your business logic.
-        </p>
-        <a href="/ecosystem/overview.html" class="home__link">Learn more</a>
+  {{ super() }}
+  <section class="home">
+    <img
+      class="home__background"
+      src="assets/img/home-background.svg"
+      draggable="false"
+    />
+    <div class="home__wrapper">
+      <div class="home__main">
+        <div class="home__content">
+          <h1>Event-driven microservices at scale</h1>
+          <p>
+            Mykilio is an ecosystem that enables you to build modern, event-driven
+            microservices while focusing on your business logic.
+          </p>
+          <a href="/ecosystem/overview.html" class="home__link">Learn more</a>
+        </div>
+        <img
+          class="home__artwork"
+          src="assets/img/home-artwork.svg"
+          draggable="false"
+        />
       </div>
-      <img
-        class="home__artwork"
-        src="assets/img/home-artwork.svg"
-        draggable="false"
-      />
     </div>
-  </div>
-
-  {% block content %}
-  {% endblock %}
-
-  {% block main %}
-  {% endblock %}
-</section>
-
+  </section>
 {% endblock %}
 
-{% block footer %}
-{%endblock%}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}
