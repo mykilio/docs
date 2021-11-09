@@ -1,6 +1,6 @@
 # Concepts
 
-This document explains the underlying concepts and ideas of the microservice architecture.
+This document explains the underlying concepts and ideas of this library.
 
 > _TODO: Insert diagram that illustrates the correlation between **Channels**, **Gateways**, **Brokers** and **Services**._
 
@@ -10,11 +10,11 @@ A key concept of the architecture is the concept of channels. Channels are a can
 
 | Concept       | Resource action | Wildcard resource | Wildcard action |
 | ------------- | --------------- | ----------------- | --------------- |
-| Channel       | `pets.create`   | `>.create`        | `pets.>`        |
+| Channel       | `pets.create`   | `*.create`        | `pets.*`        |
 | HTTP endpoint | `POST /pets`    | `POST /*`         | `ALL /pets`     |
 | MQTT topic    | `pets/create`   | `#/create`        | `pets/#`        |
 | Redis channel | `pets.create`   | `*.create`        | `pets.*`        |
-| NATS subject  | `pets.create`   | `>.create`        | `pets.>`        |
+| NATS subject  | `pets.create`   | `*.create`        | `pets.*`        |
 
 ### Special channels
 
@@ -26,7 +26,7 @@ A key concept of the architecture is the concept of channels. Channels are a can
 
 Gateways make it possible to translate from protocols and their representations of hierarchies to the canonical format of channels. Below you may find a list of currently supported gateways:
 
-- **Web gateway** (`gateway-web`)  
+- **HTTP gateway** (`gateway-http`)  
   A gateway that converts HTTP requests into resource actions based on the HTTP method and the request path. With this gateway it is possible to expose event-driven services as RESTful HTTP API by simply deploying this gateway service.
 
 > _TODO: Conceptualize and document how the **Web gateway** for exposes endpoints that allow connecting to channels via **WebSockets**._

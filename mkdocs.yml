@@ -9,6 +9,7 @@ use_directory_urls: no
 nav:
   - Home: index.md
   - Ecosystem:
+      - Overview: ecosystem/overview.md
       - Concepts: ecosystem/concepts.md
   - Contributors:
       - Contributing: contributors/contributing.md
