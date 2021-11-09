@@ -3,9 +3,6 @@
 > I believe that mycelium is the neurological network of nature. Interlacing mosaics of mycelium infuse habitats with information-sharing membranes. These membranes are aware, react to change, and collectively have the long-term health of the host environment in mind. The mycelium stays in constant molecular communication with its environment, devising diverse enzymatic and chemical responses to complex challenges.  
 > ― Paul Stamets, Mycelium Running: How Mushrooms Can Help Save the World
 
-> Mycelium is Earth's natural Internet.  
-> ― Paul Staments
-
 Adopting, architecting and building microservices can be complex and complicated. Mykilio aims to tackle this complexity by providing an open ecosystem that allows developers to build applications quickly, supporting greenfield projects and gradual adoption of microservices alike.
 
 On a high level Mykilio tackles these challenges by drawing inspiration from other microservice frameworks, such as [Mainflux][docs-mainflux] and [Moleculer][website-moleculer] while also using well-defined specifications such as [CloudEvents][website-cloudevents].
