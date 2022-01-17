@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://docs.mykil.io/index.html</loc>
+         <lastmod>2022-01-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.mykil.io/contributors/contributing.html</loc>
+         <lastmod>2022-01-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.mykil.io/contributors/faq.html</loc>
+         <lastmod>2022-01-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.mykil.io/ecosystem/concepts.html</loc>
+         <lastmod>2022-01-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.mykil.io/ecosystem/overview.html</loc>
+         <lastmod>2022-01-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
