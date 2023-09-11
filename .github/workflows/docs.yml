@@ -54,7 +54,7 @@ jobs:
           DOMAIN: ${{ secrets.DOMAIN }}
 
       - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: docs
           build_dir: public
